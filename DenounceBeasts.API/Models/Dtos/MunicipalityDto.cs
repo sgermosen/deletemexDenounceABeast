@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace DenounceBeasts.API.Models.Entities
 {
     //[Table("MUNICIPALITY")]
-    public class Municipality
+    public class MunicipalityDto
     {
         public int Id { get; set; }
 
