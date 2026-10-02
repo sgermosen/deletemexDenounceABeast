@@ -6,6 +6,7 @@
         public string Name { get; set; } = string.Empty;
         public int MunicipalityId { get; set; }
         public bool IsActive { get; set; } = true;
+        public Municipality Municipality { get; set; } // Relación  con Municipio
     }
 
 }
